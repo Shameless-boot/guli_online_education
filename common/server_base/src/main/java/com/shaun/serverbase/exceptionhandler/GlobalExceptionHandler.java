@@ -13,9 +13,15 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
-    @ExceptionHandler
+    @ExceptionHandler(Exception.class)
     public Result error(Exception e) {
         e.printStackTrace();
         return Result.Error().message("全局异常处理类处理异常...");
+    }
+
+    @ExceptionHandler(GuliException.class)
+    public Result guliError(GuliException e) {
+        e.printStackTrace();
+        return Result.Error().code(e.getCode()).message(e.getMsg());
     }
 }

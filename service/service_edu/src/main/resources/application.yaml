@@ -3,6 +3,7 @@ server:
   servlet:
     application-display-name: service-edu
 
+
 # 环境设置
 spring:
   profiles:
@@ -16,8 +17,8 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
-
-mybatis-plus:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 

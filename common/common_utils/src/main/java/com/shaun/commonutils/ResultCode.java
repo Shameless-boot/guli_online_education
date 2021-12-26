@@ -7,7 +7,7 @@ package com.shaun.commonutils;
  */
 public interface ResultCode {
     // 状态码：成功
-    String SUCCESS = "20000";
+    Integer SUCCESS = 20000;
     // 状态码：失败
-    String ERROR = "20001";
+    Integer ERROR = 20001;
 }

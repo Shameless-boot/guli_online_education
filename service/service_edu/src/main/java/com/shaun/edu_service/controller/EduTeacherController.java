@@ -6,6 +6,7 @@ import com.shaun.commonutils.Result;
 import com.shaun.edu_service.entity.EduTeacher;
 import com.shaun.edu_service.entity.vo.TeacherQuery;
 import com.shaun.edu_service.service.EduTeacherService;
+import com.shaun.serverbase.exceptionhandler.GuliException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiOperation;
@@ -27,8 +28,9 @@ import java.util.Map;
  * @since 2021-12-22
  */
 @RestController
-@RequestMapping("/eduservice/teacher")
+@RequestMapping("/edu_service/teacher")
 @Api(value = "讲师模块")
+@CrossOrigin
 public class EduTeacherController {
     // 注入service层
     @Autowired
@@ -72,7 +74,7 @@ public class EduTeacherController {
     public Result teacherQuery(@ApiParam("当前页码") @PathVariable long current, @ApiParam("每页显示行数") @PathVariable long size,@ApiParam("需要查询的条件") @RequestBody(required = false) TeacherQuery teacherQuery) {
         Page<EduTeacher> page = new Page<>(current, size);
         service.pageQuery(page, teacherQuery);
-        return Result.Ok().data("total", page.getTotal()).data("page", page.getRecords());
+        return Result.Ok().data("total", page.getTotal()).data("rows", page.getRecords());
     }
 
     @ApiOperation("插入讲师数据")
@@ -86,6 +88,7 @@ public class EduTeacherController {
     @GetMapping("/{id}")
     public Result queryById(@ApiParam("讲师ID") @PathVariable String id) {
         EduTeacher teacher = service.getById(id);
+
         return teacher != null ? Result.Ok().data("item", teacher) : Result.Error();
     }
 

@@ -16,7 +16,7 @@ public class Result {
     @ApiModelProperty("是否成功")
     private boolean success;
     @ApiModelProperty("状态码")
-    private String code;
+    private Integer code;
     @ApiModelProperty("返回信息")
     private String message;
     @ApiModelProperty("返回数据")
@@ -46,7 +46,7 @@ public class Result {
         return this;
     }
 
-    public Result code(String code){
+    public Result code(Integer code){
         this.setCode(code);
         return this;
     }

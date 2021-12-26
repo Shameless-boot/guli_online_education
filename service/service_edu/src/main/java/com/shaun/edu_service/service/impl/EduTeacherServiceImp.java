@@ -40,6 +40,9 @@ public class EduTeacherServiceImp extends ServiceImpl<EduTeacherMapper, EduTeach
         if (!StringUtils.isEmpty(end))
             wrapper.le("gmt_create", end);
 
+        // 根据插入时间降序排序
+        wrapper.orderByDesc("gmt_create");
+
         baseMapper.selectPage(page, wrapper);
     }
 }
