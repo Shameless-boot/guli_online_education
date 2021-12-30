@@ -68,8 +68,7 @@
                 type="danger"
                 size="mini"
                 icon="el-icon-delete"
-                @click="removeDataById(scope.row.id)">
-                删除
+                @click="removeDataById(scope.row.id)">删除
               </el-button>
             </template>
           </el-table-column>

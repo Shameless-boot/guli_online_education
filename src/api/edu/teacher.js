@@ -8,7 +8,7 @@ import request from '@/utils/request'
 export function getTeacherPageList(current, size, teacherQuery) {
   return request({
     // 请求接口路径,使用模板字符串进行拼接
-    url: `http://localhost:8001/edu_service/teacher/pageCondition/${current}/${size}`,
+    url: `/edu_service/teacher/pageCondition/${current}/${size}`,
     // 请求方法类型
     method: 'post',
     data: teacherQuery
@@ -19,7 +19,7 @@ export function getTeacherPageList(current, size, teacherQuery) {
 export function save(teacher) {
   return request({
     // 请求接口路径,使用模板字符串进行拼接
-    url: `http://localhost:8001/edu_service/teacher/`,
+    url: '/edu_service/teacher/',
     // 请求方法类型
     method: 'post',
     data: teacher
@@ -30,7 +30,7 @@ export function save(teacher) {
 export function deleteTeacherById(id) {
   return request({
     // 请求接口路径,使用模板字符串进行拼接
-    url: `http://localhost:8001/edu_service/teacher/${id}`,
+    url: `/edu_service/teacher/${id}`,
     // 请求方法类型
     method: 'delete'
   })
@@ -39,7 +39,7 @@ export function deleteTeacherById(id) {
 export function getInfoById(id) {
   return request({
     // 请求接口路径,使用模板字符串进行拼接
-    url: `http://localhost:8001/edu_service/teacher/${id}`,
+    url: `/edu_service/teacher/${id}`,
     // 请求方法类型
     method: 'get'
   })
@@ -50,7 +50,7 @@ public Result updateTeacher(@RequestBody EduTeacher teacher)*/
 export function update(teacher) {
   return request({
     // 请求接口路径,使用模板字符串进行拼接
-    url: `http://localhost:8001/edu_service/teacher`,
+    url: '/edu_service/teacher',
     // 请求方法类型
     method: 'put',
     data: teacher
