@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.core.config.GlobalConfig;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;
+import com.baomidou.mybatisplus.generator.IFill;
 import com.baomidou.mybatisplus.generator.config.OutputFile;
 import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
@@ -35,11 +36,12 @@ public class CodeGenerator {
                             .service("service") // 设置service层包名称
                             .mapper("mapper") // 设置mapper层包名称
                             .xml("mapper") // 设置xml包名称
-                            .serviceImpl("serviceImpl") // 设置serviceImpl
+                            .serviceImpl("impl") // 设置serviceImpl
                             .pathInfo(Collections.singletonMap(OutputFile.mapperXml, System.getProperty("user.dir") + "\\src\\main\\resources\\xml")); // 设置mapperXml生成路径
                 })
                 .strategyConfig(builder -> {
-                    builder.addInclude("edu_teacher") // 设置需要生成的表名，可以为多个表名称，或者一个List集合
+                    builder.addInclude("edu_chapter", "edu_course", "edu_course_description", "edu_video")
+                            // .addInclude("edu_teacher") // 设置需要生成的表名，可以为多个表名称，或者一个List集合
                             .addTablePrefix("edu_service_") // 设置过滤表前缀，比如edu_service_test，就只会生成为test的类名称
                             .serviceBuilder() // Service的策略配置
                             .formatServiceFileName("%sService") // %s为适配，根据表名进行替换
