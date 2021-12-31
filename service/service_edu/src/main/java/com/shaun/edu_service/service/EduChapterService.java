@@ -2,6 +2,9 @@ package com.shaun.edu_service.service;
 
 import com.shaun.edu_service.entity.EduChapter;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.shaun.edu_service.entity.vo.chapter.Chapter;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface EduChapterService extends IService<EduChapter> {
 
+    List<Chapter> getAllChaptersAndVideos(String courseId);
+
+    boolean deleteChapter(String id);
 }

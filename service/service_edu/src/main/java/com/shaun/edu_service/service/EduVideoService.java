@@ -2,6 +2,9 @@ package com.shaun.edu_service.service;
 
 import com.shaun.edu_service.entity.EduVideo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.shaun.edu_service.entity.vo.chapter.Video;
+
+import java.util.List;
 
 /**
  * <p>
@@ -12,5 +15,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2021-12-29
  */
 public interface EduVideoService extends IService<EduVideo> {
-
+    List<Video> getAllVideosByChapterId(String chapterId);
 }

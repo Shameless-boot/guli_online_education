@@ -1,4 +1,4 @@
-package com.shaun.edu_service.entity.vo;
+package com.shaun.edu_service.entity.vo.subject;
 
 import lombok.Data;
 

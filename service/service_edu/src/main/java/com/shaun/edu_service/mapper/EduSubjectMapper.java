@@ -2,7 +2,7 @@ package com.shaun.edu_service.mapper;
 
 import com.shaun.edu_service.entity.EduSubject;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.shaun.edu_service.entity.vo.SecondLevelSubject;
+import com.shaun.edu_service.entity.vo.subject.SecondLevelSubject;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

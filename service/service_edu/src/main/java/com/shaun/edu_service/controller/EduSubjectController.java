@@ -2,7 +2,7 @@ package com.shaun.edu_service.controller;
 
 
 import com.shaun.commonutils.Result;
-import com.shaun.edu_service.entity.vo.FirstLevelSubject;
+import com.shaun.edu_service.entity.vo.subject.FirstLevelSubject;
 import com.shaun.edu_service.service.EduSubjectService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

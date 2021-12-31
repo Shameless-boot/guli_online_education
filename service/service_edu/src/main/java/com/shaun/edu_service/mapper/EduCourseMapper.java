@@ -2,6 +2,7 @@ package com.shaun.edu_service.mapper;
 
 import com.shaun.edu_service.entity.EduCourse;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.shaun.edu_service.entity.vo.CoursePublishVo;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -14,5 +15,5 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface EduCourseMapper extends BaseMapper<EduCourse> {
-
+    CoursePublishVo getCoursePublishVoByCourseId(String courseId);
 }

@@ -2,7 +2,7 @@ package com.shaun.edu_service.service;
 
 import com.shaun.edu_service.entity.EduSubject;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.shaun.edu_service.entity.vo.FirstLevelSubject;
+import com.shaun.edu_service.entity.vo.subject.FirstLevelSubject;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

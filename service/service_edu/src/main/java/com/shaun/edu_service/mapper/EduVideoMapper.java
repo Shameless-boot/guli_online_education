@@ -2,7 +2,10 @@ package com.shaun.edu_service.mapper;
 
 import com.shaun.edu_service.entity.EduVideo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.shaun.edu_service.entity.vo.chapter.Video;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
 
 /**
  * <p>
@@ -14,5 +17,5 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface EduVideoMapper extends BaseMapper<EduVideo> {
-
+    List<Video> getAllVideos(String chapterId);
 }
