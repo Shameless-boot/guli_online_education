@@ -64,9 +64,14 @@
         />
       </el-form-item>
 
-      <!-- 课程简介  -->
-      <el-form-item label="课程简介">
-        <el-input v-model="courseInfo.description" placeholder=""/>
+      <el-form-item label="课程价格">
+        <el-input-number
+          :min="0"
+          v-model="courseInfo.price"
+          controls-position="right"
+          placeholder="免费课程请设置为0元"
+        />
+        元
       </el-form-item>
 
       <!-- 课程封面  -->
@@ -78,19 +83,13 @@
           :action="'/service_oss/file/upload'"
           class="avatar-uploader"
         >
-          <img :src="courseInfo.cover"  alt="点击上传图片"/>
+          <img :src="courseInfo.cover" alt="点击上传图片"/>
         </el-upload>
       </el-form-item>
 
-
-      <el-form-item label="课程价格">
-        <el-input-number
-          :min="0"
-          v-model="courseInfo.price"
-          controls-position="right"
-          placeholder="免费课程请设置为0元"
-        />
-        元
+      <!-- 课程简介  -->
+      <el-form-item label="课程简介">
+        <tinymce :height="300" v-model="courseInfo.description"/>
       </el-form-item>
 
       <el-form label-width="120px">
@@ -105,28 +104,63 @@
 <script>
 import course from '@/api/edu/course'
 import subject from '@/api/edu/subject'
+import Tinymce from '@/components/Tinymce'
 
 export default {
   name: 'info',
+  components: { Tinymce },
   data() {
     return {
       saveBtnDisabled: false,
       courseInfo: {
         subjectParentId: '',
         subjectId: '',
-        cover: '/static/cover.jpg'
+        cover: '/static/upload.jpg'
       },
       teacherList: [],
       firstLevelSubjectList: [],
-      secondLevelSubjectList: []
+      secondLevelSubjectList: [],
+      courseId: '',
     }
   },
   created() {
+    // 判断路由路径是由有ID，有的话获取ID值，调用获取课程基本信息方法
+    if (this.$route.params && this.$route.params.id) {
+      // 获取ID值
+      this.courseId = this.$route.params.id
+      // 调用获取课程信息方法
+      this.getCourseInfo()
+    } else {
+      // 清空数据
+      this.courseInfo = {}
+      this.courseInfo.cover = '/static/upload.jpg'
+    }
+
     this.getAllTeachers()
     this.getFirstLevelSubjectList()
   },
   methods: {
     next() {
+      // 执行添加操作
+      if (!this.courseId) {
+        this.addCourseInfo()
+      }else { // 执行更新操作
+        this.updateCourseInfo()
+      }
+    },
+    updateCourseInfo() {
+      console.log(this.courseInfo)
+      course.updateCourseInfo(this.courseInfo).then(response => {
+        // 提示更新成功
+        this.$message({
+          type: 'success',
+          message: '更新成功!'
+        })
+        // 进行下一步操作
+        this.$router.push({path: `/course/chapter/${this.courseId}`})
+      })
+    },
+    addCourseInfo() {
       // 发送提交课程请求
       course.addCourseInfo(this.courseInfo).then(response => { //提交成功
         // 提示提交成功
@@ -159,24 +193,35 @@ export default {
     // 封面上传成功调用该方法
     handleAvatarSuccess(resp, file) {
       this.courseInfo.cover = resp.data.url
-      console.log(this.courseInfo.cover)
     },
     //上传之前要调用的方法
     beforeAvatarUpload(file) {
-      const isJPG = file.type === "image/jpeg";
-      const isLt2M = file.size / 1024 / 1024 < 2;
+      const isJPG = file.type === 'image/jpeg'
+      const isLt2M = file.size / 1024 / 1024 < 2
       if (!isJPG) {
-        this.$message.error("上传头像图片只能是 JPG 格式!");
+        this.$message.error('上传头像图片只能是 JPG 格式!')
       }
       if (!isLt2M) {
-        this.$message.error("上传头像图片大小不能超过 2MB!");
+        this.$message.error('上传头像图片大小不能超过 2MB!')
       }
-      return isJPG && isLt2M;
+      return isJPG && isLt2M
+    },
+    // 根据课程ID获取课程基本信息
+    getCourseInfo() {
+      course.getCourseInfoById(this.courseId).then(response => { // 请求成功
+        this.courseInfo = response.data.item
+        subject.getSubjectList().then(response =>{
+          this.firstLevelSubjectList = response.data.items
+          this.secondLevelSubjectList = this.firstLevelSubjectList.find(o => o.id === this.courseInfo.subjectParentId).children
+        })
+      })
     }
   }
 }
 </script>
 
 <style scoped>
-
+.tinymce-container {
+  line-height: 29px;
+}
 </style>

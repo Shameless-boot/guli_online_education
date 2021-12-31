@@ -115,13 +115,8 @@ export default {
       this.currentPage = currentPage
       getTeacherPageList(this.currentPage, this.size, this.teacherQuery)
         .then(response => {
-          console.log(this.currentPage)
           this.list = response.data.rows
-          console.log(this.list)
           this.total = response.data.total
-          console.log(this.total)
-        })
-        .catch(error => {
         })
     },
     resetData() {
