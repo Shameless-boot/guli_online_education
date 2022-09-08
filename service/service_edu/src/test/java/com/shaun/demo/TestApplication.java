@@ -1,8 +1,7 @@
 package com.shaun.demo;
 import com.shaun.edu_service.EduApplication;
-import com.shaun.edu_service.entity.EduChapter;
 import com.shaun.edu_service.entity.EduSubject;
-import com.shaun.edu_service.entity.vo.CoursePublishVo;
+import com.shaun.edu_service.entity.vo.course.CoursePublishVo;
 import com.shaun.edu_service.entity.vo.chapter.Chapter;
 import com.shaun.edu_service.entity.vo.chapter.Video;
 import com.shaun.edu_service.mapper.EduChapterMapper;
@@ -15,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.io.File;
 import java.util.List;
 
 /**
@@ -59,5 +59,11 @@ public class TestApplication {
     public void test04() {
         final CoursePublishVo coursePublishVoByCourseId = courseMapper.getCoursePublishVoByCourseId("18");
         System.out.println(coursePublishVoByCourseId);
+    }
+
+    @Test
+    public void test05() {
+        File file = new File("C//Users//Shaun//Desktop//123.txt");
+        System.out.println(file.exists());
     }
 }

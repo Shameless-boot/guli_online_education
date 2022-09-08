@@ -10,4 +10,8 @@ public interface ResultCode {
     Integer SUCCESS = 20000;
     // 状态码：失败
     Integer ERROR = 20001;
+    // 状态码：支付中
+    Integer PAYING = 25000;
+    // 状态码：未登录
+    Integer LOGOUT = 28004;
 }

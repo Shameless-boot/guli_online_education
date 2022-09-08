@@ -10,6 +10,10 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * <p>
  * 讲师 服务实现类
@@ -44,5 +48,50 @@ public class EduTeacherServiceImp extends ServiceImpl<EduTeacherMapper, EduTeach
         wrapper.orderByDesc("gmt_create");
 
         baseMapper.selectPage(page, wrapper);
+    }
+
+    /**
+     * 根据讲师ID进行降序排序，返回前4条记录
+     * @return 讲师集合
+     */
+    @Override
+    public List<EduTeacher> getTrendTeachers() {
+        QueryWrapper<EduTeacher> wrapper = new QueryWrapper<>();
+        wrapper.orderByDesc("id");
+        wrapper.last("limit 4");
+        return this.list(wrapper);
+    }
+
+    /**
+     * 根据讲师id降序返回分页数据，并将page对象的所有属性封装到map集合中
+     * @param page 分页对象
+     * @return map集合存储所有page对象的属性
+     */
+    @Override
+    public Map<String, Object> getPageList(Page<EduTeacher> page) {
+        // 进行分页操作
+        QueryWrapper<EduTeacher> wrapper = new QueryWrapper<>();
+        wrapper.orderByDesc("id");
+        this.page(page, wrapper);
+
+        // 封装所有分页属性
+        long current = page.getCurrent();
+        long pages = page.getPages();
+        List<EduTeacher> records = page.getRecords();
+        long size = page.getSize();
+        long total = page.getTotal();
+        boolean hasNext = page.hasNext();
+        boolean hasPrevious = page.hasPrevious();
+
+        Map<String, Object> map = new HashMap<>();
+        map.put("current", current);
+        map.put("pages", pages);
+        map.put("items", records);
+        map.put("size", size);
+        map.put("total", total);
+        map.put("hasNext", hasNext);
+        map.put("hasPrevious", hasPrevious);
+
+        return map;
     }
 }

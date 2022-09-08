@@ -1,0 +1,39 @@
+# 服务端口
+server:
+  port: 8008
+
+spring:
+  application:
+    # 服务名
+    name: service-sta
+
+  # mysql数据库连接
+  datasource:
+    url: jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+
+  cloud:
+    nacos:
+      discovery:
+        # 配置Nacos服务
+        server-addr: localhost:8848
+
+
+
+  #返回json的全局时间格式
+#  jackson:
+##    time-zone: yyyy-MM-dd HH:mm:ss
+#    date-format: GMT+8
+
+
+mybatis-plus:
+  #配置mapper xml文件的路径
+  mapper-locations: classpath:com/shaun/sta_service/mapper/xml/*.xml
+  configuration:
+    #mybatis日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+

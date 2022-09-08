@@ -8,3 +8,363 @@
                 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28m38s949ms671µs200ns).
 2021-12-31 22:45:04.876 [HikariPool-1 housekeeper] WARN 
                 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m40s194ms2µs300ns).
+2022-01-01 15:54:20.171 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m13s495ms883µs100ns).
+2022-01-01 17:38:08.067 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42m17s861ms922µs400ns).
+2022-01-01 21:56:03.514 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h7m55s300ms966µs300ns).
+2022-01-02 13:38:44.160 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m45s701ms808µs700ns).
+2022-01-02 14:40:46.644 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m1s807ms413µs400ns).
+2022-01-05 17:15:44.113 [main] WARN 
+                o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2022-01-05 17:15:44.123 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 17:15:44.130 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 17:15:46.308 [main] WARN 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - No service to register for nacos client...
+2022-01-05 17:48:35.592 [main] WARN 
+                o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2022-01-05 17:48:35.594 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 17:48:35.598 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 17:48:37.300 [main] WARN 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - No service to register for nacos client...
+2022-01-05 17:54:51.854 [main] WARN 
+                o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2022-01-05 17:54:51.856 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 17:54:51.860 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 17:54:52.082 [main] WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nacosProperties' defined in class path resource [com/alibaba/cloud/nacos/discovery/NacosDiscoveryAutoConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.alibaba.cloud.nacos.NacosDiscoveryProperties] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2022-01-05 17:58:24.929 [main] WARN 
+                o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2022-01-05 17:58:24.932 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 17:58:24.937 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 17:58:25.186 [main] WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nacosProperties' defined in class path resource [com/alibaba/cloud/nacos/discovery/NacosDiscoveryAutoConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.alibaba.cloud.nacos.NacosDiscoveryProperties] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2022-01-05 18:02:47.174 [main] WARN 
+                o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2022-01-05 18:02:47.176 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 18:02:47.179 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 18:02:48.924 [main] WARN 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - No service to register for nacos client...
+2022-01-05 18:04:52.038 [main] WARN 
+                o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2022-01-05 18:04:52.040 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 18:04:52.044 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 18:04:53.712 [main] WARN 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - No service to register for nacos client...
+2022-01-05 18:07:42.830 [main] WARN 
+                o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2022-01-05 18:07:42.833 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 18:07:42.837 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 18:07:44.658 [main] WARN 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - No service to register for nacos client...
+2022-01-05 18:09:00.681 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 18:09:00.685 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 19:55:55.731 [main] WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduVideoController': Unsatisfied dependency expressed through field 'vodClient'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shaun.edu_service.client.VodClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-01-05 19:58:44.562 [main] WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduVideoController': Unsatisfied dependency expressed through field 'vodClient'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shaun.edu_service.client.VodClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-01-05 19:59:57.992 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 19:59:57.998 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 20:30:55.482 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 20:30:55.486 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:10:17.654 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:10:17.678 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:14:58.761 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:14:58.767 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:16:15.256 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:16:15.261 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:18:07.203 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:18:07.209 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:20:12.309 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:20:12.316 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:23:50.404 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-05 21:23:50.408 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-06 16:16:46.508 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-06 16:16:46.525 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-06 16:31:01.566 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-06 16:31:01.570 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-06 16:54:06.279 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-06 16:54:06.284 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-06 18:50:22.376 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m8s410ms33µs500ns).
+2022-01-06 19:50:30.649 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m8s117ms932µs200ns).
+2022-01-06 23:13:46.309 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h59m45s257ms408µs).
+2022-01-06 23:32:18.203 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-06 23:32:18.206 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-07 12:02:09.377 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-07 12:02:09.385 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-07 12:33:28.633 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m16s61ms20µs100ns).
+2022-01-07 13:45:07.385 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-07 13:45:07.388 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-13 22:28:35.600 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-13 22:28:35.607 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-13 22:43:16.684 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-13 22:43:16.690 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-13 23:07:18.965 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-13 23:07:18.969 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-22 12:28:40.583 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-22 12:28:40.597 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-22 12:48:43.508 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-22 12:48:43.517 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 16:46:15.199 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 16:46:15.206 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:21:10.482 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:21:10.487 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:22:06.714 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:22:06.719 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:33:24.129 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:33:24.133 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:34:58.758 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:34:58.765 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:35:31.518 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-24 18:35:31.522 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-01-25 11:14:53.051 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h25m39s292ms435µs799ns).
+2022-01-25 14:47:19.874 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h31m56s797ms572µs800ns).
+2022-01-25 20:21:10.208 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h24m20s186ms732µs200ns).
+2022-01-26 10:28:37.848 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h30m26s60ms801µs800ns).
+2022-01-26 14:01:08.835 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h32m977ms750µs400ns).
+2022-01-26 21:50:40.483 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h17m30s685ms997µs300ns).
+2022-01-26 22:47:28.608 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m47s990ms593µs800ns).
+2022-01-26 23:21:45.509 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m20s348ms316µs600ns).
+2022-02-09 14:34:39.114 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 14:34:39.121 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 14:41:31.847 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 14:41:31.851 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 15:45:50.036 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 15:45:50.040 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:34:06.674 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:34:06.679 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:35:30.597 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:35:30.602 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:41:52.909 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:41:52.913 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:50:28.430 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:50:28.435 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:51:49.894 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:51:49.898 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:57:01.220 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 16:57:01.225 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 17:31:40.759 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 17:31:40.764 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 18:05:19.040 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 18:05:19.044 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 18:07:56.255 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 18:07:56.259 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 20:22:57.897 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h13m53s454ms868µs800ns).
+2022-02-09 21:52:31.823 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 21:52:31.826 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 21:54:03.715 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 21:54:03.718 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 21:55:18.398 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 21:55:18.405 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 22:25:02.417 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-09 22:25:02.421 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-10 13:33:05.736 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-10 13:33:05.742 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-10 21:40:21.989 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h24m36s804ms785µs800ns).
+2022-02-14 14:57:42.547 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 14:57:42.558 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 19:44:04.968 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h27m22s865ms771µs200ns).
+2022-02-14 20:39:09.460 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 20:39:09.469 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 20:46:41.341 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 20:46:41.352 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 20:52:14.613 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 20:52:14.617 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 20:52:49.050 [http-nio-8001-exec-3] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 20:52:49.891 [hystrix-service-order-1] WARN 
+                o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ribbonLoadBalancingHttpClient' defined in org.springframework.cloud.netflix.ribbon.apache.HttpClientRibbonConfiguration: Unsatisfied dependency expressed through method 'ribbonLoadBalancingHttpClient' parameter 2; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ribbonLoadBalancer' defined in org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.netflix.loadbalancer.ILoadBalancer]: Factory method 'ribbonLoadBalancer' threw exception; nested exception is java.lang.ExceptionInInitializerError
+2022-02-14 20:52:49.935 [hystrix-service-order-2] WARN 
+                o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ribbonLoadBalancingHttpClient' defined in org.springframework.cloud.netflix.ribbon.apache.HttpClientRibbonConfiguration: Unsatisfied dependency expressed through method 'ribbonLoadBalancingHttpClient' parameter 2; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ribbonLoadBalancer' defined in org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.netflix.loadbalancer.ILoadBalancer]: Factory method 'ribbonLoadBalancer' threw exception; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.netflix.loadbalancer.PollingServerListUpdater$LazyHolder
+2022-02-14 20:53:14.775 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 20:53:14.778 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-14 23:54:48.627 [HikariPool-1 housekeeper] WARN 
+                com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h45m27s503ms214µs900ns).
+2022-02-15 00:55:13.838 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-15 00:55:13.844 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-15 14:45:48.380 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-15 14:45:48.385 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-19 10:52:18.237 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-19 10:52:18.248 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-19 11:11:48.733 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-19 11:11:48.737 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-19 16:34:23.453 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-19 16:34:23.457 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:02:31.292 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:02:31.299 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:34:18.218 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:34:18.230 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:49:41.476 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:49:41.480 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:53:56.698 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:53:56.702 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:58:40.115 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 22:58:40.131 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 23:05:51.543 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 23:05:51.547 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 23:11:05.960 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-04 23:11:05.964 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-05 22:37:30.310 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-05 22:37:30.323 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-06 14:31:47.744 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-06 14:31:47.756 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-07 14:36:11.054 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-09-07 14:36:11.061 [main] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

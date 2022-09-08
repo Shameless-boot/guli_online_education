@@ -744,3 +744,117 @@ Error starting ApplicationContext. To display the conditions report re-run your 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2021-12-31 23:30:03.569 [SpringContextShutdownHook] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-01 14:21:09.824 [main] INFO 
+                com.shaun.demo.TestApplication - Starting TestApplication on LAPTOP-CNTOADI4 with PID 4792 (started by Shaun in E:\JavaProject\guli_parent\service\service_edu)
+2022-01-01 14:21:09.833 [main] INFO 
+                com.shaun.demo.TestApplication - The following profiles are active: dev
+2022-01-01 14:21:10.866 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-01 14:21:10.872 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-01-01 14:21:10.905 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2022-01-01 14:21:11.385 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-01 14:21:13.592 [main] INFO 
+                s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-01 14:21:14.110 [main] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-01 14:21:15.257 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-01 14:21:15.291 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-01 14:21:15.362 [main] INFO 
+                s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-01 14:21:15.733 [main] INFO 
+                com.shaun.demo.TestApplication - Started TestApplication in 6.534 seconds (JVM running for 7.848)
+2022-01-01 14:21:16.116 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-01 14:21:16.400 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-01 14:21:16.517 [SpringContextShutdownHook] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-01 14:21:16.521 [SpringContextShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-01 14:21:16.525 [SpringContextShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-01 14:53:31.440 [main] INFO 
+                com.shaun.demo.TestApplication - Starting TestApplication on LAPTOP-CNTOADI4 with PID 18724 (started by Shaun in E:\JavaProject\guli_parent\service\service_edu)
+2022-01-01 14:53:31.443 [main] INFO 
+                com.shaun.demo.TestApplication - The following profiles are active: dev
+2022-02-09 17:07:06.051 [main] INFO 
+                com.shaun.demo.TestApplication - The following profiles are active: dev
+2022-02-09 17:07:06.944 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-09 17:07:06.947 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-02-09 17:07:06.977 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2022-02-09 17:07:07.353 [main] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=6a6dd8d6-7f07-3659-89dd-5c617f4a3ccf
+2022-02-09 17:07:07.669 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-09 17:07:07.899 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.shaun.serverbase.config.RedisConfig$$EnhancerBySpringCGLIB$$dc69bce9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-09 17:07:07.968 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-09 17:07:11.217 [main] INFO 
+                s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-09 17:07:11.528 [main] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-02-09 17:07:11.544 [main] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-02-09 17:07:11.942 [main] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-09 17:07:12.898 [main] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2022-02-09 17:07:13.658 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-09 17:07:13.703 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-09 17:07:13.804 [main] INFO 
+                s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-09 17:07:14.337 [main] INFO 
+                s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCourseInfoByIdUsingGET_1
+2022-02-09 17:07:14.514 [main] INFO 
+                com.shaun.demo.TestApplication - Started TestApplication in 9.93 seconds (JVM running for 11.072)
+2022-02-09 17:07:14.969 [SpringContextShutdownHook] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-09 17:07:45.402 [main] INFO 
+                com.shaun.demo.TestApplication - The following profiles are active: dev
+2022-02-09 17:07:46.384 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-09 17:07:46.388 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-02-09 17:07:46.420 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2022-02-09 17:07:46.882 [main] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=6a6dd8d6-7f07-3659-89dd-5c617f4a3ccf
+2022-02-09 17:07:47.493 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-09 17:07:47.935 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.shaun.serverbase.config.RedisConfig$$EnhancerBySpringCGLIB$$65e53a51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-09 17:07:48.100 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-09 17:07:52.836 [main] INFO 
+                s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-09 17:07:53.279 [main] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-02-09 17:07:53.289 [main] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-02-09 17:07:54.167 [main] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-09 17:07:55.438 [main] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2022-02-09 17:07:56.413 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-09 17:07:56.467 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-09 17:07:56.577 [main] INFO 
+                s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-09 17:07:57.214 [main] INFO 
+                s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCourseInfoByIdUsingGET_1
+2022-02-09 17:07:57.511 [main] INFO 
+                com.shaun.demo.TestApplication - Started TestApplication in 13.782 seconds (JVM running for 14.816)
+2022-02-09 17:07:57.985 [SpringContextShutdownHook] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

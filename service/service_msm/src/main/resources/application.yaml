@@ -1,0 +1,23 @@
+server:
+  port: 8005
+
+spring:
+  application:
+    name: service-msm
+  # redis
+  redis:
+    host: 192.168.199.3
+    port: 6378
+    database: 2
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: 1
+        max-idle: 5
+        min-idle: 0
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

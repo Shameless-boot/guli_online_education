@@ -1,0 +1,25 @@
+server:
+  port: 8003
+  servlet:
+    application-display-name: service-vod
+
+
+aliyun:
+  vod:
+    file:
+      AccessKeyId: LTAI5tP99e9Cqidp43N62uax
+      AccessKeySecret: EmRpRChbaf2IJs61lbbFHS7V8Y9DtL
+
+spring:
+  application:
+    name: service-vod
+  servlet:
+    multipart:
+      # 单个文件上传最大大小
+      max-file-size: 128MB
+      # 多个文件总上传最大大小
+      max-request-size: 128MB
+  cloud:
+    nacos:
+      discovery: # 在客户端中添加nacos服务的配置信息
+        server-addr: 127.0.0.1:8848

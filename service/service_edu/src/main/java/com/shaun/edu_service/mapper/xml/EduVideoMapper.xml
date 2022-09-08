@@ -2,6 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.shaun.edu_service.mapper.EduVideoMapper">
     <select id="getAllVideos" resultType="com.shaun.edu_service.entity.vo.chapter.Video">
-        SELECT id, title FROM edu_video WHERE chapter_id = #{chapterId};
+        SELECT id, title, video_source_id as videoSourceId FROM edu_video WHERE chapter_id = #{chapterId};
     </select>
 </mapper>

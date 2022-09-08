@@ -14,13 +14,14 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class GlobalConfig implements WebMvcConfigurer {
 
-    @Override
+    /*@Override
     public void addCorsMappings(CorsRegistry registry) {
         // 放行哪些请求
         registry.addMapping("/**")
                 .allowedMethods("*") // 放行哪些方法
                 .allowedHeaders("*") // 放行哪些头部信息
                 .allowCredentials(true) // 是否与跨域请求共用同一个Cookie
-                .allowedOrigins("http://localhost:9528"); // 允许跨域的源
-    }
+                .allowedOrigins("http://localhost:9528", "http://localhost:3000", "http://localhost:9001"); // 允许跨域的源
+    }*/
+
 }

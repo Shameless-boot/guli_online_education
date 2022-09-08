@@ -2,6 +2,18 @@ server:
   port: 8002
 
 spring:
+  application:
+    name: service-oss
   profiles:
     active: dev
-
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-shenzhen.aliyuncs.com
+      accessKeyId: LTAI5tP99e9Cqidp43N62uax
+      accessKeySecret: EmRpRChbaf2IJs61lbbFHS7V8Y9DtL
+      bucket: shaun-edu-profile

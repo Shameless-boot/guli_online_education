@@ -16,4 +16,6 @@ import java.util.List;
  */
 public interface EduVideoService extends IService<EduVideo> {
     List<Video> getAllVideosByChapterId(String chapterId);
+
+    void removeVideoByCourseId(String courseId);
 }
